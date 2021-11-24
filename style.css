@@ -1,0 +1,65 @@
+:root{
+    /* base color 1 */
+    --base-color1: 60;
+    --color1-light:  hsla(var(--base-color1), 50%, 75%, 100%);
+    --color1-normal: hsla(var(--base-color1), 50%, 50%, 100%);
+    --color1-darker: hsla(var(--base-color1), 50%, 35%, 100%);
+    
+    /* base color 2 */
+    --base-color2: 120;
+    --color2-light:  hsla(var(--base-color2), 50%, 75%, 100%);
+    --color2-normal: hsla(var(--base-color2), 50%, 50%, 100%);
+    --color2-darker: hsla(var(--base-color2), 50%, 35%, 100%);
+    
+    /*base color 3 */
+    --base-color3: 200; 
+    --color3-light:  hsla(var(--base-color3), 50%, 75%, 100%);
+    --color3-normal: hsla(var(--base-color3), 50%, 50%, 100%);
+    --color3-darker: hsla(var(--base-color3), 50%, 35%, 100%);
+} 
+
+/* vietnamese */
+
+  /* latin */
+@font-face {
+  font-family: 'Group1';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/literata/v23/or3PQ6P12-iJxAIgLa78DkrbXsDgk0oVDaDPYLanFLHpPf2TbBG_J_HWTA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.font{
+    font-family: 'Group1';
+    font-size: 20px;
+    margin-bottom: 50px;
+    color: var(--color3-darker);
+}
+.hsla{
+  width: 20%;
+  height: 200px;
+  background-color: var(--color2-light);
+}
+
+.footer{
+  margin-top: 50px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+.footer i{
+  width: 100px;
+  font-size: 51px;
+  color: #ffb480;
+}
+.footer img{
+  height: 54px;
+}
+
